@@ -20,5 +20,5 @@ A starter project for creating lightning-fast, offline-first websites with [Netl
 
 [Netlify CMS Docs](https://www.netlifycms.org/docs/)  
 [Netlify CMS Repo](https://github.com/netlify/netlify-cms)  
-[Hyperstatic](https://github.com/Jinksi/hyperstatic) – the same starter project minus Netlify CMS  
+[Hyperstatic](https://github.com/beraliv/hyperstatic) – the same starter project minus Netlify CMS  
 [Gatsby + Netlify CMS Starter](https://github.com/AustinGreen/gatsby-starter-netlify-cms)

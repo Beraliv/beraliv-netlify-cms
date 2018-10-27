@@ -2,7 +2,7 @@
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![dependencies](https://david-dm.org/jinksi/netlify-cms-react-starter.svg?style=flat-square)](https://david-dm.org/jinksi/netlify-cms-react-starter)
+[![dependencies](https://david-dm.org/beraliv/tennis-netlify-cms.svg?style=flat-square)](https://david-dm.org/beraliv/tennis-netlify-cms)
 
 A starter project for creating lightning-fast, offline-first websites with [Netlify CMS](https://netlifycms.org) and React.
 
@@ -16,7 +16,7 @@ I aim to include commonly used components and best-practices e.g. forms, setting
 
 ## Get going
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Jinksi/netlify-cms-react-starter&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/beraliv/tennis-netlify-cms&stack=cms)
 
 1.  Hit the **Deploy to Netlify** button. This will:
 
@@ -65,5 +65,3 @@ Find out more in the [Netlify CMS Docs](https://www.netlifycms.org/docs/#configu
 
 [Netlify CMS Docs](https://www.netlifycms.org/docs/)  
 [Netlify CMS Repo](https://github.com/netlify/netlify-cms)  
-[Hyperstatic](https://github.com/Jinksi/hyperstatic) – the same starter project minus Netlify CMS  
-[Gatsby + Netlify CMS Starter](https://github.com/AustinGreen/gatsby-starter-netlify-cms)

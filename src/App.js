@@ -64,7 +64,7 @@ class App extends Component {
         <div className='React-Wrap'>
           <ScrollToTop />
           <ServiceWorkerNotifications reloadOnUpdate />
-          <GithubCorner url='https://github.com/Jinksi/netlify-cms-react-starter' />
+          <GithubCorner url='https://github.com/beraliv/tennis-netlify-cms' />
           <Helmet
             defaultTitle={siteTitle}
             titleTemplate={`${siteTitle} | %s`}
