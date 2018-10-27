@@ -23,7 +23,7 @@ export default ({ fields }) => {
         <div className='container'>
           <Content source={section2} />
           <p>The image below is a {'<LazyImage />'}</p>
-          <LazyImage src={featuredImage} alt='LazyImage' />
+          <LazyImage src={featuredImage} alt='LazyImage' lazy />
         </div>
       </div>
     </div>

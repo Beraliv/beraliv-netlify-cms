@@ -2,7 +2,7 @@ import React from 'react'
 import Marked from 'react-markdown'
 import PropTypes from 'prop-types'
 
-import { getImageSrc, getImageSrcset } from '../util/getImageUrl'
+import LazyImage from './LazyImage'
 import './Content.css'
 
 const encodeMarkdownURIs = (source = '') => {
@@ -15,13 +15,11 @@ const encodeMarkdownURIs = (source = '') => {
 }
 
 const ImageWithSrcset = ({ nodeKey, src, alt, ...props }) => {
-  const decodedSrc = decodeURI(src)
   return (
-    <img
+    <LazyImage
       className='Content--Image'
       {...props}
-      src={getImageSrc(decodedSrc)}
-      srcSet={getImageSrcset(decodedSrc)}
+      src={src}
       alt={alt}
     />
   )

@@ -8,7 +8,7 @@ import './LazyImage.css'
 
 class LazyImage extends React.Component {
   static defaultProps = {
-    lazy: false,
+    lazy: true,
     enableSrcset: true,
     imageSize: '300'
   }
@@ -24,8 +24,8 @@ class LazyImage extends React.Component {
     loaded: !this.props.lazy
   }
 
-  handleIntersection = e => {
-    if (e.isIntersecting) {
+  handleIntersection = ({ isIntersecting }) => {
+    if (isIntersecting) {
       const img = new Image()
       img.src = this.state.dataSrc
       img.onload = () => {
