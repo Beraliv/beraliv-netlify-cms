@@ -35,17 +35,18 @@
     "date-fns": "^1.29.0",
     "dom-form-serializer": "^1.0.7",
     "intersection-observer": "^0.5.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.12",
     "modern-normalize": "^0.4.0",
     "moveto": "^1.7.1",
     "netlify-identity-widget": "^1.2.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.4.2",
     "react-feather": "^1.1.0",
     "react-helmet": "^5.1.3",
     "react-markdown": "3",
     "react-router-dom": "^4.1.1",
-    "react-snapshot": "^1.1.0"
+    "react-snapshot": "^1.1.0",
+    "snyk": "^1.248.0"
   },
   "scripts": {
     "start": "npm-run-all prepare-content -p start:content start:app start:cms",
@@ -61,16 +62,18 @@
     "build:sitemap": "node ./functions/generate-sitemap.js",
     "build:sha": "git rev-parse HEAD > build/sha",
     "parse-content": "node ./functions/parse-content.js",
-    "prepare": "yarn install:cms",
+    "prepare": "yarn run snyk-protect && yarn install:cms",
     "install:cms": "cd cms && yarn",
     "resize-images": "node ./functions/resize-images.js",
     "prepare-content": "npm-run-all -s parse-content resize-images",
     "test": "standard | snazzy && react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect"
   },
   "reactSnapshot": {
     "include": [
       "/404"
     ]
-  }
+  },
+  "snyk": true
 }
