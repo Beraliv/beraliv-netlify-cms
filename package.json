@@ -46,7 +46,7 @@
     "react-markdown": "3",
     "react-router-dom": "^4.1.1",
     "react-snapshot": "^1.1.0",
-    "snyk": "^1.248.0"
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "start": "npm-run-all prepare-content -p start:content start:app start:cms",
