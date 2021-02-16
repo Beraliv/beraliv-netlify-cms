@@ -39,7 +39,7 @@
     "modern-normalize": "^0.4.0",
     "moveto": "^1.7.1",
     "netlify-identity-widget": "^1.2.0",
-    "react": "^16.0.0",
+    "react": "^16.5.0",
     "react-dom": "^16.4.2",
     "react-feather": "^1.1.0",
     "react-helmet": "^5.1.3",
